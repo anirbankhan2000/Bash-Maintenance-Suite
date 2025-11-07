@@ -7,7 +7,7 @@ This project automates:
 - Log monitoring
 - A Menu-based interface
 
-## ✅ Scripts
+##  Scripts
 ### 1. backup.sh  
 Creates a backup of Desktop & Documents.
 
@@ -20,7 +20,7 @@ Searches syslog for errors.
 ### 4. menu.sh  
 Menu-driven program to run all scripts.
 
-## ✅ How to Run
+##  How to Run
 ```
 git clone <your-repo-link>
 cd Bash-Maintenance-Suite
@@ -28,5 +28,5 @@ chmod +x *.sh
 ./menu.sh
 ```
 
-## ✅ Author
-Your Name
+##  Author
+Anirban Khan
