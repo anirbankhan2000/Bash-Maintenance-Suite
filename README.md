@@ -1,32 +1,57 @@
-# Bash Scripting Suite for System Maintenance
+Bash Maintenance Suite
 
-A simple Linux system maintenance suite created using Bash scripts.  
-This project automates:
-- System backup
-- System updates
-- Log monitoring
-- A Menu-based interface
+A simple Linux system maintenance suite built using Bash scripting.
+This project automates essential system tasks like creating backups, updating packages, and monitoring logs.
+It includes a clean menu-driven interface that makes it easy for beginners to practice Linux shell scripting.
 
-##  Scripts
-### 1. backup.sh  
-Creates a backup of Desktop & Documents.
+GitHub Repository Link:
+https://github.com/saheb23122000/Bash-Maintenance-Suite
 
-### 2. update_system.sh  
-Updates & cleans Linux packages.
+ Features
 
-### 3. log_monitor.sh  
-Searches syslog for errors.
+Backup Script – Creates a backup of important directories
 
-### 4. menu.sh  
-Menu-driven program to run all scripts.
+System Update Script – Updates and upgrades Linux packages
 
-##  How to Run
-```
-git clone <repo-link>
-cd Bash-Maintenance-Suite
-chmod +x *.sh
+Log Monitoring Script – Scans system logs for errors/warnings
+
+Menu Interface – Allows user to run tasks easily
+
+ Project Structure
+Bash-Maintenance-Suite/
+│
+├── backup.sh
+├── update_system.sh
+├── log_monitor.sh
+├── menu.sh
+└── README.md
+
+ How to Run (Linux / WSL)
+ 
+ Go to your project folder
+ cd Bash-Maintenance-Suite
+
+ Give execution permission
+ chmod +x *.sh
+
+ Run the menu
 ./menu.sh
-```
+
+ Script Details
+ 1. backup.sh
+
+Creates a backup directory and copies Desktop/Documents into it.
+
+ 2. update_system.sh
+
+Updates system packages using apt update and apt upgrade.
+
+ 3. log_monitor.sh
+
+Searches /var/log/syslog for errors and saves results in log_report.txt.
+
+ 4. menu.sh
+
 
 ##  Author
 Anirban Khan
