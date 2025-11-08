@@ -22,7 +22,7 @@ Menu-driven program to run all scripts.
 
 ##  How to Run
 ```
-git clone <your-repo-link>
+git clone <repo-link>
 cd Bash-Maintenance-Suite
 chmod +x *.sh
 ./menu.sh
