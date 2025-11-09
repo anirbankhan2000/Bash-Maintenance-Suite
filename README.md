@@ -4,8 +4,6 @@ A simple Linux system maintenance suite built using Bash scripting.
 This project automates essential system tasks like creating backups, updating packages, and monitoring logs.
 It includes a clean menu-driven interface that makes it easy for beginners to practice Linux shell scripting.
 
-GitHub Repository Link:
-https://github.com/saheb23122000/Bash-Maintenance-Suite
 
  Features
 
